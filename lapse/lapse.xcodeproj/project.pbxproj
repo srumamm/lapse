@@ -12,6 +12,13 @@
 		B132BF732B145D6B00C36478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B132BF722B145D6B00C36478 /* Assets.xcassets */; };
 		B132BF772B145D6B00C36478 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B132BF762B145D6B00C36478 /* Preview Assets.xcassets */; };
 		B132BF822B14626800C36478 /* LapseProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B132BF812B14626700C36478 /* LapseProfile.swift */; };
+		B16020E52B183E14007E48DA /* LapseProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020E42B183E14007E48DA /* LapseProfileView.swift */; };
+		B16020E72B183F57007E48DA /* friendstes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020E62B183F57007E48DA /* friendstes.swift */; };
+		B16020ED2B186376007E48DA /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020EC2B186376007E48DA /* AlbumView.swift */; };
+		B16020EF2B1875F6007E48DA /* SeeMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020EE2B1875F6007E48DA /* SeeMonthView.swift */; };
+		B16020F12B18767F007E48DA /* SeeMonthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020F02B18767F007E48DA /* SeeMonthViewModel.swift */; };
+		B16020F32B1879F1007E48DA /* ProfileAboveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020F22B1879F0007E48DA /* ProfileAboveView.swift */; };
+		B16020F52B19255C007E48DA /* CameraVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16020F42B19255C007E48DA /* CameraVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		B132BF742B145D6B00C36478 /* lapse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lapse.entitlements; sourceTree = "<group>"; };
 		B132BF762B145D6B00C36478 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B132BF812B14626700C36478 /* LapseProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapseProfile.swift; sourceTree = "<group>"; };
+		B16020E42B183E14007E48DA /* LapseProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapseProfileView.swift; sourceTree = "<group>"; };
+		B16020E62B183F57007E48DA /* friendstes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendstes.swift; sourceTree = "<group>"; };
+		B16020EC2B186376007E48DA /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		B16020EE2B1875F6007E48DA /* SeeMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMonthView.swift; sourceTree = "<group>"; };
+		B16020F02B18767F007E48DA /* SeeMonthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMonthViewModel.swift; sourceTree = "<group>"; };
+		B16020F22B1879F0007E48DA /* ProfileAboveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAboveView.swift; sourceTree = "<group>"; };
+		B16020F42B19255C007E48DA /* CameraVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,8 @@
 		B132BF6D2B145D6900C36478 /* lapse */ = {
 			isa = PBXGroup;
 			children = (
-				B132BF812B14626700C36478 /* LapseProfile.swift */,
-				B132BF6E2B145D6900C36478 /* lapseApp.swift */,
-				B132BF702B145D6900C36478 /* ContentView.swift */,
+				B16020E12B183DDF007E48DA /* LapseViewsM */,
+				B16020E92B185C99007E48DA /* LapseViews */,
 				B132BF722B145D6B00C36478 /* Assets.xcassets */,
 				B132BF742B145D6B00C36478 /* lapse.entitlements */,
 				B132BF752B145D6B00C36478 /* Preview Content */,
@@ -67,6 +80,8 @@
 		B132BF752B145D6B00C36478 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B132BF6E2B145D6900C36478 /* lapseApp.swift */,
+				B132BF702B145D6900C36478 /* ContentView.swift */,
 				B132BF7D2B14604C00C36478 /* New Group */,
 				B132BF762B145D6B00C36478 /* Preview Assets.xcassets */,
 			);
@@ -78,6 +93,28 @@
 			children = (
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		B16020E12B183DDF007E48DA /* LapseViewsM */ = {
+			isa = PBXGroup;
+			children = (
+				B16020E42B183E14007E48DA /* LapseProfileView.swift */,
+				B16020F02B18767F007E48DA /* SeeMonthViewModel.swift */,
+			);
+			name = LapseViewsM;
+			sourceTree = "<group>";
+		};
+		B16020E92B185C99007E48DA /* LapseViews */ = {
+			isa = PBXGroup;
+			children = (
+				B16020E62B183F57007E48DA /* friendstes.swift */,
+				B132BF812B14626700C36478 /* LapseProfile.swift */,
+				B16020EC2B186376007E48DA /* AlbumView.swift */,
+				B16020EE2B1875F6007E48DA /* SeeMonthView.swift */,
+				B16020F22B1879F0007E48DA /* ProfileAboveView.swift */,
+				B16020F42B19255C007E48DA /* CameraVIew.swift */,
+			);
+			path = LapseViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16020ED2B186376007E48DA /* AlbumView.swift in Sources */,
+				B16020F52B19255C007E48DA /* CameraVIew.swift in Sources */,
+				B16020F12B18767F007E48DA /* SeeMonthViewModel.swift in Sources */,
+				B16020E72B183F57007E48DA /* friendstes.swift in Sources */,
 				B132BF822B14626800C36478 /* LapseProfile.swift in Sources */,
 				B132BF712B145D6900C36478 /* ContentView.swift in Sources */,
 				B132BF6F2B145D6900C36478 /* lapseApp.swift in Sources */,
+				B16020F32B1879F1007E48DA /* ProfileAboveView.swift in Sources */,
+				B16020EF2B1875F6007E48DA /* SeeMonthView.swift in Sources */,
+				B16020E52B183E14007E48DA /* LapseProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
